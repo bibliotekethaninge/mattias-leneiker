@@ -22,19 +22,20 @@ if (isConfirmed) {
         <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftad</h2>
         <p className="text-gray-600">Din leverans av medlemskortet har avbokats. En bekräftelse kommer att skickas till din registrerade e-postadress.</p>
       </div>
+      
+      {/* Twitch Stream */}
       <div className="w-full max-w-4xl bg-black rounded-lg overflow-hidden">
-        <div className="relative pb-9/16 w-full h-0">
-          <iframe
-            src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
-            className="absolute top-0 left-0 w-full h-full"
-            allowFullScreen
-            frameBorder="0"
-          ></iframe>
-        </div>
+        <iframe
+          src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
+          className="w-full h-[500px]"  // Set a fixed height for the iframe
+          allowFullScreen
+          frameBorder="0"
+        ></iframe>
       </div>
     </div>
   );
 }
+
 
 
 
