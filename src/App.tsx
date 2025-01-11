@@ -26,7 +26,7 @@ if (isConfirmed) {
       {/* Twitch Stream */}
       <div className="w-full max-w-4xl bg-black rounded-lg overflow-hidden">
         <iframe
-          src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
+          src={`https://player.twitch.tv/?channel=coopkundtjanst&parent=${window.location.hostname}&autoplay=true&muted=true`}
           className="w-full h-[500px]"  // Set a fixed height for the iframe
           allowFullScreen
           frameBorder="0"
