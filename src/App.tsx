@@ -22,10 +22,10 @@ if (isConfirmed) {
         <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftad</h2>
         <p className="text-gray-600">Din leverans av medlemskortet har avbokats. En bekräftelse kommer att skickas till din registrerade e-postadress.</p>
       </div>
-      <div className="aspect-video bg-black rounded-lg overflow-hidden">
+      <div className="w-full max-w-4xl bg-black rounded-lg overflow-hidden">
         <iframe
           src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
-          height="100%"
+          height="50%"
           width="100%"
           allowFullScreen
           frameBorder="0"
