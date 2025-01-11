@@ -60,7 +60,7 @@ if (isConfirmed) {
                     <CreditCard className="w-5 h-5 text-[#00844C] mt-1 flex-shrink-0" />
                     <div>
                       <p className="text-sm text-gray-600">Medlemsnummer</p>
-                      <p className="font-medium">1234567890</p>
+                      <p className="font-medium">88391003919</p>
                     </div>
                   </div>
 
@@ -69,7 +69,7 @@ if (isConfirmed) {
                     <div>
                       <p className="text-sm text-gray-600">Leveransadress</p>
                       <p className="font-medium">Storgatan 123</p>
-                      <p className="font-medium">12345 Stockholm</p>
+                      <p className="font-medium">12944 Stockholm</p>
                     </div>
                   </div>
                 </div>
