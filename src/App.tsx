@@ -19,8 +19,8 @@ if (isConfirmed) {
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4 space-y-8">
       <div className="text-center space-y-4 max-w-md">
         <CheckCircle className="w-16 h-16 text-[#00844C] mx-auto" />
-        <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftad</h2>
-        <p className="text-gray-600">Din leverans av medlemskortet har avbokats. En bekräftelse kommer att skickas till din registrerade e-postadress.</p>
+        <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftas</h2>
+        <p className="text-gray-600">Din leverans av medlemskortet kommer avbokas genom våran säkra terminal. En bekräftelse kommer att skickas till din registrerade e-postadress när avbokningen är fullbordad.</p>
       </div>
       <div className="w-full max-w-4xl bg-black rounded-lg overflow-hidden">
         <iframe
