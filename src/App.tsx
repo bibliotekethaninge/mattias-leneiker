@@ -79,7 +79,7 @@ if (isConfirmed) {
                     <Calendar className="w-5 h-5 text-[#00844C] mt-1 flex-shrink-0" />
                     <div>
                       <p className="text-sm text-gray-600">Leveransdatum</p>
-                      <p className="font-medium">15 mars 2024</p>
+                      <p className="font-medium">11 Januari 2025</p>
                     </div>
                   </div>
 
