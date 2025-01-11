@@ -22,13 +22,14 @@ function App() {
           <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftad</h2>
           <p className="text-gray-600">Din leverans av medlemskortet har avbokats. En bekräftelse kommer att skickas till din registrerade e-postadress.</p>
         </div>
-        <div className="w-full max-w-3xl aspect-video">
-          <iframe
-            src="https://player.twitch.tv/?channel=sodapoppin&parent=localhost"
-            height="100%"
-            width="100%"
-            className="w-full h-full rounded-lg shadow-lg"
-            allowFullScreen
+      <div className="aspect-video bg-black rounded-lg overflow-hidden">
+              <iframe
+                src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
+                height="100%"
+                width="100%"
+                allowFullScreen
+              ></iframe>
+            </div>
           />
         </div>
       </div>
