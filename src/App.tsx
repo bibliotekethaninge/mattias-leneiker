@@ -14,27 +14,27 @@ function App() {
     setShowConfirmDialog(false);
   };
 
-  if (isConfirmed) {
-    return (
-      <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4 space-y-8">
-        <div className="text-center space-y-4 max-w-md">
-          <CheckCircle className="w-16 h-16 text-[#00844C] mx-auto" />
-          <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftad</h2>
-          <p className="text-gray-600">Din leverans av medlemskortet har avbokats. En bekräftelse kommer att skickas till din registrerade e-postadress.</p>
-        </div>
-      <div className="aspect-video bg-black rounded-lg overflow-hidden">
-              <iframe
-                src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
-                height="100%"
-                width="100%"
-                allowFullScreen
-              ></iframe>
-            </div>
-          />
-        </div>
+if (isConfirmed) {
+  return (
+    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4 space-y-8">
+      <div className="text-center space-y-4 max-w-md">
+        <CheckCircle className="w-16 h-16 text-[#00844C] mx-auto" />
+        <h2 className="text-2xl font-bold text-gray-800">Avbokning bekräftad</h2>
+        <p className="text-gray-600">Din leverans av medlemskortet har avbokats. En bekräftelse kommer att skickas till din registrerade e-postadress.</p>
       </div>
-    );
-  }
+      <div className="aspect-video bg-black rounded-lg overflow-hidden">
+        <iframe
+          src={`https://player.twitch.tv/?channel=biblioteketsundbyberg&parent=${window.location.hostname}&autoplay=true&muted=true`}
+          height="100%"
+          width="100%"
+          allowFullScreen
+          frameBorder="0"
+        ></iframe>
+      </div>
+    </div>
+  );
+}
+
 
   return (
     <div className="min-h-screen bg-white">
